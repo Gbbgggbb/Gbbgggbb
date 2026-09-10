@@ -5,5 +5,4 @@ Aqui estão as minhas contribuições do GitHub transformadas em uma prainha pix
 
 ![Prainha Pokémon](https://githubusercontent.com)
 
-
 ---
