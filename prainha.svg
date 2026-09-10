@@ -1,0 +1,146 @@
+<svg xmlns="http://w3.org" viewBox="0 0 850 350" width="100%" height="100%">
+  <defs>
+    <!-- Estilo para animação dos brilhos e das ondas -->
+    <style>
+      @keyframes brilho {
+        0%, 100% { opacity: 0.3; filter: drop-shadow(0 0 2px rgba(57,211,83,0.4)); }
+        50% { opacity: 1.0; filter: drop-shadow(0 0 8px rgba(57,211,83,0.9)); }
+      }
+      @keyframes onda {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(6px); }
+      }
+      .estrela-1 { animation: brilho 3s infinite ease-in-out; }
+      .estrela-2 { animation: brilho 4s infinite ease-in-out 1s; }
+      .estrela-3 { animation: brilho 2.5s infinite ease-in-out 0.5s; }
+      .mar-onda { animation: onda 4s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- Fundo do Céu Noturno / Entardecer Escuro -->
+  <rect width="850" height="350" fill="#0d1117" rx="10" />
+
+  <!-- Cenário de Fundo: O Céu de Contribuições (Quadradinhos Verdes Estilo Estrelas/Brilhos) -->
+  <g transform="translate(40, 30)">
+    <!-- Linha 1 -->
+    <rect class="estrela-1" x="0" y="0" width="12" height="12" rx="2" fill="#216e39" />
+    <rect class="estrela-2" x="20" y="0" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-3" x="40" y="0" width="12" height="12" rx="2" fill="#0e4429" />
+    <rect class="estrela-1" x="80" y="0" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-2" x="140" y="0" width="12" height="12" rx="2" fill="#26a641" />
+    <rect class="estrela-3" x="200" y="0" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-1" x="280" y="0" width="12" height="12" rx="2" fill="#216e39" />
+    <rect class="estrela-2" x="360" y="0" width="12" height="12" rx="2" fill="#26a641" />
+    <rect class="estrela-3" x="440" y="0" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-1" x="520" y="0" width="12" height="12" rx="2" fill="#0e4429" />
+    <rect class="estrela-2" x="600" y="0" width="12" height="12" rx="2" fill="#26a641" />
+    <rect class="estrela-3" x="680" y="0" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-1" x="760" y="0" width="12" height="12" rx="2" fill="#216e39" />
+
+    <!-- Linha 2 -->
+    <rect class="estrela-2" x="10" y="18" width="12" height="12" rx="2" fill="#26a641" />
+    <rect class="estrela-3" x="60" y="18" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-1" x="110" y="18" width="12" height="12" rx="2" fill="#216e39" />
+    <rect class="estrela-2" x="170" y="18" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-3" x="250" y="18" width="12" height="12" rx="2" fill="#0e4429" />
+    <rect class="estrela-1" x="310" y="18" width="12" height="12" rx="2" fill="#26a641" />
+    <rect class="estrela-2" x="400" y="18" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-3" x="490" y="18" width="12" height="12" rx="2" fill="#216e39" />
+    <rect class="estrela-1" x="570" y="18" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-2" x="640" y="18" width="12" height="12" rx="2" fill="#26a641" />
+    <rect class="estrela-3" x="720" y="18" width="12" height="12" rx="2" fill="#0e4429" />
+
+    <!-- Linha 3 -->
+    <rect class="estrela-3" x="30" y="36" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-1" x="90" y="36" width="12" height="12" rx="2" fill="#216e39" />
+    <rect class="estrela-2" x="150" y="36" width="12" height="12" rx="2" fill="#26a641" />
+    <rect class="estrela-3" x="220" y="36" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-1" x="300" y="36" width="12" height="12" rx="2" fill="#0e4429" />
+    <rect class="estrela-2" x="380" y="36" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-3" x="460" y="36" width="12" height="12" rx="2" fill="#216e39" />
+    <rect class="estrela-1" x="540" y="36" width="12" height="12" rx="2" fill="#26a641" />
+    <rect class="estrela-2" x="620" y="36" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-3" x="700" y="36" width="12" height="12" rx="2" fill="#216e39" />
+    <rect class="estrela-1" x="750" y="36" width="12" height="12" rx="2" fill="#39d353" />
+
+    <!-- Linha 4 -->
+    <rect class="estrela-1" x="50" y="54" width="12" height="12" rx="2" fill="#216e39" />
+    <rect class="estrela-2" x="120" y="54" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-3" x="180" y="54" width="12" height="12" rx="2" fill="#26a641" />
+    <rect class="estrela-1" x="260" y="54" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-2" x="340" y="54" width="12" height="12" rx="2" fill="#0e4429" />
+    <rect class="estrela-3" x="420" y="54" width="12" height="12" rx="2" fill="#216e39" />
+    <rect class="estrela-1" x="500" y="54" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-2" x="580" y="54" width="12" height="12" rx="2" fill="#26a641" />
+    <rect class="estrela-3" x="660" y="54" width="12" height="12" rx="2" fill="#39d353" />
+    <rect class="estrela-1" x="730" y="54" width="12" height="12" rx="2" fill="#0e4429" />
+  </g>
+
+  <!-- Nuvens Pixel Art Suaves no Céu -->
+  <g fill="#30363d" opacity="0.5">
+    <rect x="120" y="40" width="60" height="10" rx="3"/>
+    <rect x="140" y="30" width="30" height="10" rx="3"/>
+    <rect x="580" y="60" width="80" height="10" rx="3"/>
+    <rect x="600" y="50" width="40" height="10" rx="3"/>
+  </g>
+
+  <!-- O MAR (Ondas que sobem e descem) -->
+  <g class="mar-onda">
+    <!-- Camada do Mar Fundo (Azul Escuro) -->
+    <path d="M 0,160 Q 106.25,150 212.5,160 T 425,160 T 637.5,160 T 850,160 L 850,350 L 0,350 Z" fill="#1f6feb" />
+    <!-- Camada do Mar Médio (Azul Médio) -->
+    <path d="M 0,185 Q 106.25,175 212.5,185 T 425,185 T 637.5,185 T 850,185 L 850,350 L 0,350 Z" fill="#58a6ff" />
+    <!-- Camada da Espuma da Onda (Azul Claro) -->
+    <path d="M 0,205 Q 106.25,198 212.5,205 T 425,205 T 637.5,205 T 850,205 L 850,350 L 0,350 Z" fill="#c9d1d9" opacity="0.6" />
+  </g>
+
+  <!-- A AREIA DA PRAIA (Faixa inferior estável) -->
+  <path d="M 0,225 Q 212.5,220 425,225 T 850,225 L 850,350 L 0,350 Z" fill="#e3b341" />
+  <!-- Detalhes de textura na areia (Pixel Art) -->
+  <g fill="#c69026">
+    <rect x="80" y="260" width="4" height="4" />
+    <rect x="220" y="245" width="4" height="4" />
+    <rect x="450" y="280" width="4" height="4" />
+    <rect x="670" y="250" width="4" height="4" />
+    <rect x="790" y="275" width="4" height="4" />
+  </g>
+
+  <!-- MINI POKÉMON 1: BULBASAUR (Lado Esquerdo na Areia) -->
+  <g transform="translate(240, 195) scale(1.8)">
+    <!-- Bulbo nas costas -->
+    <rect x="6" y="0" width="6" height="5" fill="#26a641" />
+    <rect x="8" y="1" width="2" height="3" fill="#39d353" />
+    <!-- Corpo / Cabeça -->
+    <rect x="2" y="4" width="11" height="8" fill="#48cae4" />
+    <!-- Detalhes das manchas -->
+    <rect x="4" y="6" width="2" height="2" fill="#0096c7" />
+    <rect x="9" y="5" width="2" height="1" fill="#0096c7" />
+    <!-- Olho -->
+    <rect x="11" y="5" width="1" height="2" fill="#ba181b" />
+    <!-- Patas -->
+    <rect x="3" y="12" width="2" height="2" fill="#0077b6" />
+    <rect x="10" y="12" width="2" height="2" fill="#0077b6" />
+  </g>
+
+  <!-- MINI POKÉMON 2: CYNDAQUIL (Lado Direito na Areia) -->
+  <g transform="translate(520, 193) scale(1.8)">
+    <!-- Chaminha nas Costas (Fogo em Pixel Art) -->
+    <g class="estrela-2">
+      <rect x="0" y="2" width="3" height="4" fill="#ffb703" />
+      <rect x="1" y="0" width="1" height="3" fill="#fb8500" />
+      <rect x="-1" y="3" width="2" height="2" fill="#e63946" />
+    </g>
+    <!-- Corpo (Parte de Trás Azul) -->
+    <rect x="3" y="3" width="5" height="9" fill="#03045e" />
+    <!-- Corpo / Cabeça (Parte da Frente Bege) -->
+    <rect x="8" y="4" width="6" height="8" fill="#fdf0d5" />
+    <rect x="10" y="2" width="5" height="4" fill="#fdf0d5" />
+    <!-- Focinho comprido clássico -->
+    <rect x="15" y="4" width="3" height="2" fill="#fdf0d5" />
+    <!-- Olho fechado (Risco clássico do Cyndaquil) -->
+    <rect x="12" y="3" width="2" height="1" fill="#000000" />
+    <!-- Patas pequenininhas -->
+    <rect x="5" y="12" width="2" height="2" fill="#023e8a" />
+    <rect x="11" y="12" width="2" height="2" fill="#d6ccc2" />
+  </g>
+</svg>
